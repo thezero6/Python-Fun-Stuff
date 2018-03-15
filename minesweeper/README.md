@@ -38,7 +38,7 @@ Adding mine and counting
 
 **Main Design:**
 
-![](/assets/1.png)
+![](assets/1.png)
 
 and some events for game function response
 
