@@ -69,7 +69,7 @@ class Minesweeper:
                 y_coord = 0
                 x_coord += 1
         
-        # lay buttons in grid
+        # buttons layer in grid
         for key in self.buttons:
             self.buttons[key][0].grid( row = self.buttons[key][4][0], column = self.buttons[key][4][1] )
 
@@ -193,13 +193,22 @@ class Minesweeper:
             self.check_tile(key+10, queue)      #bottom middle
             self.check_tile(key+11, queue)      #bottom left
     
-    def gameover(self):
+    # def gameover(self):
+    #     messagebox.showinfo("Game Over", "You Lose!")
+    #     global root
+    #     root.destroy()
+
+    # def victory(self):
+    #     messagebox.showinfo("Game Over", "You Win!")
+    #     global root
+    #     root.destroy()
+    def victory(self):
         messagebox.showinfo("Game Over", "You Lose!")
         global root
         root.destroy()
 
-    def victory(self):
-        messagebox.showinfo("Game Over", "You Win!")
+    def gameover(self):
+        messagebox.showinfo("Congrats", "You Win!")
         global root
         root.destroy()
 
