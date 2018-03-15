@@ -53,7 +53,7 @@ Event one when you lose:
 
 **you Lose:**
 
-![](/assets/2.png)
+![](assets/lose.png)
 
 Event two when you win:
 
@@ -66,7 +66,7 @@ def victory(self):
 
 **you Win:**
 
-![](/assets/3.png)
+![](assets/win.png)
 
 and for flag updation.
 
@@ -77,7 +77,7 @@ def update_flags(self):
 
 **Mines:**
 
-![](/assets/12.JPG)
+![](assets/mines.JPG)
 
 > Project created just for fun stuff feel free to use the code and logics.  
 > and Fork me on Github.  
