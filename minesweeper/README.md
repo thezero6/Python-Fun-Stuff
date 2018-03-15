@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# Python Based Minesweeper mini {#thezero6}
+
+# Python Based Minesweeper mini
 
 _Small game project build with python using tkinter just for fun._
 
@@ -91,7 +91,3 @@ Github: [https://github.com/thezero6](https://github.com/thezero6)
 
 instagram: [https://www.instagram.com/whyamiprince/](https://www.instagram.com/whyamiprince/)
 
-=======
-<b>minesweeper Mini<b>
-Python3 Tkinter based game
->>>>>>> 36e9e1838b00326c683321ad99ea92fe54b7ed8d
